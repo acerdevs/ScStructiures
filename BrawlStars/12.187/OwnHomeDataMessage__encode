@@ -1,0 +1,3 @@
+LogicClientHome::encode
+LogicClientAvatar::encode
+ByteStream::WriteVInt

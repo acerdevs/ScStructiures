@@ -1,0 +1,46 @@
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStreamHelper::WriteDataReference
+ByteStream::WriteVInt
+ByteStream::WriteVInt(b) #Count 
+for x in range(b):
+  ByteStreamHelper::WriteDataReference
+ByteStream::WriteVInt(b) #Count 
+for x in range(b):
+  ByteStreamHelper::WriteDataReference
+ByteStream::WriteBoolean
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteBoolean
+ByteStream::WriteVInt
+ByteStream::WriteBoolean
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteBoolean
+ByteStreamHelper::WriteDataReference
+ByteStream::WriteBoolean
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteBoolean
+ByteStream::WriteVInt(b) #Offers Count Array
+for x in range(b):
+  LogicOfferBundle::encode
+ByteStream::WriteVInt(b) #Ad Status
+for x in range(b)
+  AdStatus::encode
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+ByteStream::WriteVInt
+
